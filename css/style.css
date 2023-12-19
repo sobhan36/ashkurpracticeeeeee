@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Sans:wght@700&family=Poppins:ital,wght@0,300;0,500;0,600;1,400&display=swap');
+
+:root{
+  --primaryFont:font-family: 'Poppins', sans-serif;
+  --secondFont:font-family: 'PT Sans', sans-serif;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a{
+  text-decoration:none;
+}
+
+ul,li{
+  list-style:none;
+}
+
+h1,h2,h3,h4,h5,h6, ul,ol,span,p{
+  margin: 0;
+  padding:0;
+}
+
+body{
+  font-family: var(--primaryFont);
+}
+
+/* COMMON CSS END HERE */
+
+
+
+
+/* NAVBAR START HERE */
+
+
+
+
+
+#myMenu ul li a{
+  color: #353535;
+font-size: 15px;
+font-style: normal;
+font-weight: 500;
+text-transform: uppercase;
+line-height: 200%;
+position: relative;
+}
+
+#myMenu ul li a::after{
+  content:'';
+  width:0;
+  height: 1px;
+  background-color: #353535;
+  position:absolute;
+  bottom: 0;
+  left: 0;
+  transition-duration:.3s;
+}
+
+
+#myMenu ul li:hover a::after{
+  width: 100%;
+}
+
+/* NAVBAR END HERE */
+
+/* BANNER START HERE */
+#banner{
+  padding:72px 144px ;
+}
+
+#banner .bannertext h4{
+ color:#353535;
+font-size: 24px;
+font-weight: 400;
+line-height: normal;
+}
+#banner .bannertext h1{
+  color: #353535;
+font-family:var(--secondaryFontst);
+font-size: 64px;
+
+font-weight: 700;
+line-height: normal;
+}
+#banner .bannertext p{
+  color:#353535;
+  font-family:Poppins;
+  font-size:20px;
+  font-style:normal;
+  font-weight:400;
+  line-height:180%;
+  padding:25px 0 45px 0;
+  
+}
+.button{
+  color: #353535;
+  padding: 16px 40px;
+  display: inline-block;
+  border: 1px solid #000;
+  border-radius: 20px;
+  font-family: Poppins;
+  font-size: 20px;
+  font-weight: 600;
+}
+#banner .bannertext .button{
+  margin-right:20px;
+}
+ .button:hover{
+  border: none;
+  color: white;
+  background-color: #FC0;
+  transition:.1s;
+}
+
+#banner .social h2{
+  color: #353535;
+font-family: Poppins;
+font-size: 22px;
+font-weight: 500;
+line-height: 180%; 
+}
+#banner .social ul li{
+  display:inline-block;
+  width:40px;
+  height: 40px;
+  line-height: 40px;
+  background-color:#F4F3F3;
+  border-radius: 50%;
+  text-align: center;
+  margin-right:5px ;
+}
+
+#banner .social{
+  margin-top: 40px;
+}
+
+@media (max-width:991px){
+  #banner .bannerimage img{
+    max-width: 100px;
+  }
+}
+/* BANNER ENE HERE */

@@ -1,0 +1,40 @@
+/* nav */
+@media(min-width:320px) and (max-width:800px){
+  nav{
+    background: #FFF;
+box-shadow: 0px 4px 10px 0px rgba(0, 0, 0, 0.10);
+  }
+}
+
+
+
+
+
+/* banner-image */
+@media(max-width:991px){
+  .button{
+    padding:8px 20px;
+    display: inline-block;
+    border: 1px solid #000;
+    border-radius: 10px;
+    font-size: 10px;
+    font-weight: 600;
+}
+  #banner .bannertext p {
+    font-size:15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height:120%;
+    padding: 25px 0 45px 0;
+}
+
+  #banner .bannertext h1 {
+    font-size:34px;
+}
+  #banner .bannertext h4 {
+    font-size:15px;
+}
+  #banner .bannerimage img{
+    max-width: 100%;
+  }
+}
